@@ -41,7 +41,6 @@ class _ConnectivityCheckerState extends State<ConnectivityChecker> {
 
   @override
   Widget build(BuildContext context) {
-    // If connected, show the child widget; otherwise, show the Lottie animation
     return isConnected
         ? widget.child
         : Container(
